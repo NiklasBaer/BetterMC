@@ -5,3 +5,4 @@
 /enchant Player702 minecraft:efficiency 5
 /give Player967 bettermc:pink_garnet_stairs
 /give Player253 bettermc:pink_garnet_slab
+/time set day

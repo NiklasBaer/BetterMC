@@ -17,5 +17,16 @@
   "item.bettermc.palladium_ore": "Palladium Ore",
   "item.bettermc.palladium_deepslate_ore": "Palladium Deepslate Ore",
   "item.bettermc.palladium_block": "Palladium Block",
-    "item.bettermc.raw_palladium_block": "Raw Palladium Ore"
+  "item.bettermc.raw_palladium_block": "Raw Palladium Ore",
+
+  "item.bettermc.pink_garnet_slab": "Pink Garnet Slab",
+  "item.bettermc.pink_garnet_door": "Pink Garnet Door",
+  "item.bettermc.pink_garnet_stairs": "Pink Garnet Stairs",
+  "item.bettermc.pink_garnet_fence": "Pink Garnet Fence",
+  "item.bettermc.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
+  "item.bettermc.pink_trapdoor": "Pink Garnet Trapdoor",
+  "item.bettermc.pink_wall": "Pink Garnet Wall",
+  "item.bettermc.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
+  "item.bettermc.pink_garnet_button": "Pink Garnet Button",
+  "item.bettermc.pink_garnet.wall" : "Pink Garnet Wall"
 }

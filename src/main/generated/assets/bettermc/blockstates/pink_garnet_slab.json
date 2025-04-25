@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
+    "type=bottom": {
       "model": "bettermc:block/pink_garnet_slab"
+    },
+    "type=double": {
+      "model": "bettermc:block/pink_garnet_block"
+    },
+    "type=top": {
+      "model": "bettermc:block/pink_garnet_slab_top"
     }
   }
 }

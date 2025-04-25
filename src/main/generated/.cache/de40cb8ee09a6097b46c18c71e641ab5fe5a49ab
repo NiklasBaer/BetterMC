@@ -1,4 +1,7 @@
-// 1.21.3	2025-04-25T10:00:25.1773403	BetterMC/Tags for minecraft:block
+// 1.21.3	2025-04-25T16:14:29.363247	BetterMC/Tags for minecraft:block
 a3a73d0a9abb7b10154bd42cc61e02ccbb13272c data\minecraft\tags\block\needs_diamond_tool.json
-c04be9e4e6f2cdcc42c5e5cb35a6ba0d8c7d92bc data\minecraft\tags\block\mineable\pickaxe.json
-3b6967cbc3753d87217e2de9b88fb65c5d5435ac data\minecraft\tags\block\needs_iron_tool.json
+7d6e4d50830617ce6dcb1876988744615948d14e data\minecraft\tags\block\mineable\pickaxe.json
+0aafac859a5a3d53f3f236191943fd4441e520ab data\minecraft\tags\block\walls.json
+891e8057871a3c10a24a4fcbb580176afcc188ef data\minecraft\tags\block\fences.json
+c5d0215148d1f11af5189441ed890999e7d68658 data\minecraft\tags\block\fence_gates.json
+c846178e6f37f6cf814d561330ed086e75d0389c data\minecraft\tags\block\needs_iron_tool.json

@@ -23,6 +23,17 @@ public class ModItemGroups {
                         entries.add(new ItemStack(ModBlocks.RAW_PINK_GARNET_BLOCK));
                         entries.add(new ItemStack(ModBlocks.PINK_GARNET_ORE));
                         entries.add(new ItemStack(ModBlocks.PINK_GARNET_DEEPSLATE_ORE));
+                        entries.add(new ItemStack(ModBlocks.PINK_GARNET_SLAB));
+                        entries.add(new ItemStack(ModBlocks.PINK_GARNET_DOOR));
+                        entries.add(new ItemStack(ModBlocks.PINK_GARNET_STAIRS));
+                        entries.add(new ItemStack(ModBlocks.PINK_GARNET_TRAPDOOR));
+                        entries.add(new ItemStack(ModBlocks.PINK_GARNET_FENCE));
+                        entries.add(new ItemStack(ModBlocks.PINK_GARNET_FENCE_GATE));
+                        entries.add(new ItemStack(ModBlocks.PINK_GARNET_WALL));
+                        entries.add(new ItemStack(ModBlocks.PINK_GARNET_PRESSURE_PLATE));
+                        entries.add(new ItemStack(ModBlocks.PINK_GARNET_BUTTON));
+
+
                     }).build());
 
 

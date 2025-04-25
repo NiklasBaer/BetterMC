@@ -1,0 +1,141 @@
+{
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/building_blocks/raw_pink_garnet": {
+    "criteria": {
+      "has_pink_garnet_block": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/food/palladium_ingot_from_blasting_raw_palladium": {
+    "criteria": {
+      "has_raw_palladium": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/building_blocks/pink_garnet_block": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-04-25 15:42:43 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/building_blocks/pink_garnet": {
+    "criteria": {
+      "has_pink_garnet_block": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/food/palladium_ingot_from_smelting_raw_palladium": {
+    "criteria": {
+      "has_raw_palladium": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/building_blocks/palladium_block": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-25 15:42:42 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4082
+}
