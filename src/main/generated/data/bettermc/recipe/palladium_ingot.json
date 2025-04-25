@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "bettermc:palladium_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "bettermc:palladium_ingot"
+  }
+}

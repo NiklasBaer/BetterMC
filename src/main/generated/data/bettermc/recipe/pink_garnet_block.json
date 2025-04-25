@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "bettermc:pink_garnet",
+    "bettermc:pink_garnet",
+    "bettermc:pink_garnet",
+    "bettermc:pink_garnet",
+    "bettermc:pink_garnet",
+    "bettermc:pink_garnet",
+    "bettermc:pink_garnet",
+    "bettermc:pink_garnet",
+    "bettermc:pink_garnet"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bettermc:pink_garnet_block"
+  }
+}

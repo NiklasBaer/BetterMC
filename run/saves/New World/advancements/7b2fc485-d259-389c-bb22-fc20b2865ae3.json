@@ -1,0 +1,45 @@
+{
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-04-24 11:33:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-24 11:33:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-04-24 11:33:49 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/pink_garnet_block": {
+    "criteria": {
+      "has_pink_garnet_block": "2025-04-24 11:33:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-04-24 11:33:32 +0200"
+    },
+    "done": false
+  },
+  "bettermc:recipes/building_blocks/pink_garnet": {
+    "criteria": {
+      "has_pink_garnet_block": "2025-04-24 11:33:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-04-24 11:33:31 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4082
+}

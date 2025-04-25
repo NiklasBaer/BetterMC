@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "bettermc",
+  "version": "${version}",
+  "name": "BetterMC",
+  "description": "",
+  "authors": ["Niklas"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/bettermc/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "de.niklas.bettermc.client.BettermcDataGenerator"
+    ],
+    "client": [
+      "de.niklas.bettermc.client.BettermcClient"
+    ],
+    "main": [
+      "de.niklas.bettermc.client.Bettermc"
+    ]
+  },
+  "mixins": [
+    "bettermc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

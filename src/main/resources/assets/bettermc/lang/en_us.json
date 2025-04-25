@@ -1,0 +1,21 @@
+{
+  "item.bettermc.pink_garnet": "Pink Garnet",
+  "item.bettermc.raw_pink_garnet": "Raw_Pink Garnet",
+
+  "item.bettermc.pink_garnet_block": "Pink Garnet Block",
+  "item.bettermc.raw_pink_garnet_block": "Raw Pink Garnet Block",
+
+  "item.bettermc.pink_garnet_ore": "Pink Garnet Ore",
+  "item.bettermc.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+
+  "item.bettermc.palladium_ingot": "Palladium Ingot",
+  "item.bettermc.raw_palladium": "Raw Palladium",
+
+  "itemGroup.bettermc.pink_garnet": "Pink Garnet",
+  "itemGroup.bettermc.palladium": "Palladium",
+
+  "item.bettermc.palladium_ore": "Palladium Ore",
+  "item.bettermc.palladium_deepslate_ore": "Palladium Deepslate Ore",
+  "item.bettermc.palladium_block": "Palladium Block",
+    "item.bettermc.raw_palladium_block": "Raw Palladium Ore"
+}

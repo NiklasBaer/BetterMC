@@ -1,0 +1,4 @@
+/difficulty peaceful
+/give Player387 bettermc:pink_garnet_deepslate_ore
+/time set day
+/enchant Player447 minecraft:fortune 3

@@ -1,0 +1,69 @@
+{
+  "bettermc:recipes/food/pink_garnet_from_blasting_raw_pink_garnet": {
+    "criteria": {
+      "has_raw_pink_garnet": "2025-04-24 12:35:54 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/building_blocks/raw_pink_garnet": {
+    "criteria": {
+      "has_pink_garnet_block": "2025-04-24 12:35:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-24 12:35:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-04-24 12:35:54 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/food/palladium_ingot_from_blasting_raw_palladium": {
+    "criteria": {
+      "has_raw_palladium": "2025-04-24 12:35:54 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/building_blocks/pink_garnet_block": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-24 12:35:54 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/food/pink_garnet_from_smelting_raw_pink_garnet": {
+    "criteria": {
+      "has_raw_pink_garnet": "2025-04-24 12:35:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-04-24 12:35:55 +0200"
+    },
+    "done": false
+  },
+  "bettermc:recipes/building_blocks/pink_garnet": {
+    "criteria": {
+      "has_pink_garnet_block": "2025-04-24 12:35:54 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/building_blocks/raw_pink_garnet_block": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-24 12:35:54 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/food/palladium_ingot_from_smelting_raw_palladium": {
+    "criteria": {
+      "has_raw_palladium": "2025-04-24 12:35:54 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4082
+}
