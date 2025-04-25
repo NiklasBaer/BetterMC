@@ -1,6 +1,7 @@
-// 1.21.3	2025-04-24T15:42:59.5251332	BetterMC/Block Loot Tables
-37ac8b67361ad1d1b5e5b6ead9b1cf59a9f67cb9 data\bettermc\loot_table\blocks\raw_palladium_block.json
+// 1.21.3	2025-04-25T10:00:25.1782132	BetterMC/Block Loot Tables
+17c290cb3b983878d131b7d71fe7eb8726d2c3f4 data\bettermc\loot_table\blocks\pink_garnet_slab.json
 92c91592179edb2e0705f1a67c92f600fa510c42 data\bettermc\loot_table\blocks\pink_garnet_ore.json
+37ac8b67361ad1d1b5e5b6ead9b1cf59a9f67cb9 data\bettermc\loot_table\blocks\raw_palladium_block.json
 dbc3a94fc41cceb86059fbe0a42d94684f298f0d data\bettermc\loot_table\blocks\palladium_block.json
 7ce15111cd2a2f240e66aa1ee7d2486fe62d1bd2 data\bettermc\loot_table\blocks\palladium_ore.json
 39f6311e54e13408555ad4c7185dae81616c6614 data\bettermc\loot_table\blocks\pink_garnet_deepslate_ore.json

@@ -24,10 +24,11 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALLADIUM_DEEPSLATE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALLADIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_PALLADIUM_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_SLAB);
 
     }
 
-    @Override
+    @Overrideeeeeeeeee
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
         itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);

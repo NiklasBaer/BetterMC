@@ -43,9 +43,9 @@ public class ModBlocks {
             AbstractBlock.Settings.create().strength(4f, 6.0f).sounds(BlockSoundGroup.DEEPSLATE));
 
     public static final Block RAW_PALLADIUM_BLOCK = registerBlock("raw_palladium_block",
-            AbstractBlock.Settings.create().strength(4f, 6.0f).sounds(BlockSoundGroup.STONE));
+            AbstractBlock.Settings.create().strength(2f, 6.0f).sounds(BlockSoundGroup.STONE));
 
-    public static final Block PINK_GARNET_STAIRS = registerBlock("pink_garnet_stairs",
+    public static final Block PINK_GARNET_SLAB = registerBlock("pink_garnet_slab",
             AbstractBlock.Settings.create().strength(4f, 6.0f).sounds(BlockSoundGroup.AMETHYST_BLOCK));
 
     private static Block registerExperienceDropingBlock(String name, AbstractBlock.Settings blockSettings) {
@@ -78,7 +78,7 @@ public class ModBlocks {
             fabricItemGroupEntries.add(RAW_PINK_GARNET_BLOCK);
 
             fabricItemGroupEntries.add(PINK_GARNET_ORE);
-            fabricItemGroupEntries.add(PINK_GARNET_STAIRS);
+            fabricItemGroupEntries.add(PINK_GARNET_SLAB);
 
         });
     }
