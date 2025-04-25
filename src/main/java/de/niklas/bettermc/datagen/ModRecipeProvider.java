@@ -147,6 +147,36 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern(" X ")
                         .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
                         .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PINK_GARNET_HELMET, 1)
+                        .input('#', ModItems.PINK_GARNET)
+                        .pattern("###")
+                        .pattern("# #")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PINK_GARNET_CHESTPLATE, 1)
+                        .input('#', ModItems.PINK_GARNET)
+                        .pattern("# #")
+                        .pattern("###")
+                        .pattern("###")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PINK_GARNET_LEGGINGS, 1)
+                        .input('#', ModItems.PINK_GARNET)
+                        .pattern("###")
+                        .pattern("# #")
+                        .pattern("# #")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PINK_GARNET_BOOTS, 1)
+                        .input('#', ModItems.PINK_GARNET)
+                        .pattern("# #")
+                        .pattern("# #")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                        .offerTo(exporter);
             }
         };
     }

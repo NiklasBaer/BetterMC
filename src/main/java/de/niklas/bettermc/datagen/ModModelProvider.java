@@ -1,12 +1,16 @@
 package de.niklas.bettermc.datagen;
 
 import de.niklas.bettermc.block.ModBlocks;
+import de.niklas.bettermc.client.Bettermc;
 import de.niklas.bettermc.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.equipment.EquipmentModel;
+import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -55,6 +59,19 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINK_GARNET_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_GARNET_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_GARNET_HAMMER, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.PINK_GARNET_HORSE_ARMOR, Models.GENERATED);
+
+        itemModelGenerator.registerArmor(ModItems.PINK_GARNET_HELMET, Identifier.of(Bettermc.MOD_ID, "pink_garnet"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(Bettermc.MOD_ID, "pink_garnet")).build(), EquipmentSlot.HEAD);
+        itemModelGenerator.registerArmor(ModItems.PINK_GARNET_CHESTPLATE, Identifier.of(Bettermc.MOD_ID, "pink_garnet"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(Bettermc.MOD_ID, "pink_garnet")).build(), EquipmentSlot.CHEST);
+        itemModelGenerator.registerArmor(ModItems.PINK_GARNET_LEGGINGS, Identifier.of(Bettermc.MOD_ID, "pink_garnet"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(Bettermc.MOD_ID, "pink_garnet")).build(), EquipmentSlot.LEGS);
+        itemModelGenerator.registerArmor(ModItems.PINK_GARNET_BOOTS, Identifier.of(Bettermc.MOD_ID, "pink_garnet"),
+                EquipmentModel.builder().addHumanoidLayers(Identifier.of(Bettermc.MOD_ID, "pink_garnet")).build(), EquipmentSlot.FEET);
+
+
 
 
     }

@@ -41,6 +41,13 @@ public class ModItemGroups {
 
                         entries.add(new ItemStack(ModItems.PINK_GARNET_HAMMER));
 
+                        entries.add(new ItemStack(ModItems.PINK_GARNET_HELMET));
+                        entries.add(new ItemStack(ModItems.PINK_GARNET_CHESTPLATE));
+                        entries.add(new ItemStack(ModItems.PINK_GARNET_LEGGINGS));
+                        entries.add(new ItemStack(ModItems.PINK_GARNET_BOOTS));
+
+                        entries.add(new ItemStack(ModItems.PINK_GARNET_HORSE_ARMOR));
+
 
                     }).build());
 

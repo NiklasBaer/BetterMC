@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "bettermc:pink_garnet"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "bettermc:pink_garnet"
+      }
+    ]
+  }
+}

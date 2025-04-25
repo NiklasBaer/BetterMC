@@ -11,3 +11,6 @@
 /gamerule doDaylightCycle false
 /enchant Player786 minecraft:sharpness 5
 /enchant Player786 minecraft:sharpness 9
+/clear Player982
+/clear Player107
+/summon minecraft:horse
