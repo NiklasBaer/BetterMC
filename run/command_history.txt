@@ -14,3 +14,4 @@
 /clear Player982
 /clear Player107
 /summon minecraft:horse
+/give Player559 bettermc:chisel_use

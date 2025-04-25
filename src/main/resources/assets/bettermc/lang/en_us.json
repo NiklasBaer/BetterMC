@@ -1,24 +1,18 @@
 {
   "item.bettermc.pink_garnet": "Pink Garnet",
   "item.bettermc.raw_pink_garnet": "Raw_Pink Garnet",
-
   "item.bettermc.pink_garnet_block": "Pink Garnet Block",
   "item.bettermc.raw_pink_garnet_block": "Raw Pink Garnet Block",
-
   "item.bettermc.pink_garnet_ore": "Pink Garnet Ore",
   "item.bettermc.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
-
   "item.bettermc.palladium_ingot": "Palladium Ingot",
   "item.bettermc.raw_palladium": "Raw Palladium",
-
   "itemGroup.bettermc.pink_garnet": "Pink Garnet",
   "itemGroup.bettermc.palladium": "Palladium",
-
   "item.bettermc.palladium_ore": "Palladium Ore",
   "item.bettermc.palladium_deepslate_ore": "Palladium Deepslate Ore",
   "item.bettermc.palladium_block": "Palladium Block",
   "item.bettermc.raw_palladium_block": "Raw Palladium Ore",
-
   "item.bettermc.pink_garnet_slab": "Pink Garnet Slab",
   "item.bettermc.pink_garnet_door": "Pink Garnet Door",
   "item.bettermc.pink_garnet_stairs": "Pink Garnet Stairs",
@@ -28,18 +22,17 @@
   "item.bettermc.pink_wall": "Pink Garnet Wall",
   "item.bettermc.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
   "item.bettermc.pink_garnet_button": "Pink Garnet Button",
-  "item.bettermc.pink_garnet.wall" : "Pink Garnet Wall",
-
+  "item.bettermc.pink_garnet.wall": "Pink Garnet Wall",
   "item.bettermc.pink_garnet_sword": "Pink Garnet Sword",
   "item.bettermc.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
   "item.bettermc.pink_garnet_axe": "Pink Garnet Axe",
   "item.bettermc.pink_garnet_shovel": "Pink Garnet Shovel",
   "item.bettermc.pink_garnet_hoe": "Pink Garnet Hoe",
   "item.bettermc.pink_garnet_hammer": "Pink Garnet Hammer",
-
   "item.bettermc.pink_garnet_helmet": "Pink Garnet Helmet",
   "item.bettermc.pink_garnet_chestplate": "Pink Garnet Chestplate",
   "item.bettermc.pink_garnet_leggings": "Pink Garnet Leggings",
   "item.bettermc.pink_garnet_boots": "Pink Garnet Boots",
-  "item.bettermc.pink_garnet_horse_armor": "Pink Garnet Horse Armor"
+  "item.bettermc.pink_garnet_horse_armor": "Pink Garnet Horse Armor",
+  "item.bettermc.chisel": "Chisel"
 }

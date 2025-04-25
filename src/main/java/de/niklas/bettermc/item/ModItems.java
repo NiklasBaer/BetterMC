@@ -1,6 +1,7 @@
 package de.niklas.bettermc.item;
 
 import de.niklas.bettermc.client.Bettermc;
+import de.niklas.bettermc.item.custom.ChiselItem;
 import de.niklas.bettermc.item.custom.HammerItem;
 import de.niklas.bettermc.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -64,6 +65,12 @@ public class ModItems {
     public static final Item PINK_GARNET_HORSE_ARMOR = registerItem("pink_garnet_horse_armor",
             new AnimalArmorItem(ModAmorMaterials.PINK_GARNET_ARMOR_MATERIAL, AnimalArmorItem.Type.EQUESTRIAN, new Item.Settings()
                     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Bettermc.MOD_ID, "pink_garnet_horse_armor"))).maxCount(1)));
+
+    public static final Item KAUPEN_BOW = registerItem("kaupen_bow",
+            new BowItem(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Bettermc.MOD_ID, "kaupen_bow"))).maxDamage(500)));
+
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Bettermc.MOD_ID, "chisel"))).maxDamage(32)));
 
 
     private static Item registerItem(String name, Item item) {

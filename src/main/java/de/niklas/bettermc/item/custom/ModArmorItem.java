@@ -23,7 +23,8 @@ public class ModArmorItem extends ArmorItem {
                     .put(ModAmorMaterials.PINK_GARNET_ARMOR_MATERIAL,
                             List.of(new StatusEffectInstance(StatusEffects.HASTE, 60, 2, false, false),
                                     new StatusEffectInstance(StatusEffects.JUMP_BOOST,  60, 1, false, false),
-                                    new StatusEffectInstance(StatusEffects.REGENERATION,  60, 2, false, false))).build();
+                                    new StatusEffectInstance(StatusEffects.REGENERATION,  60, 2, false, false),
+                                    new StatusEffectInstance(StatusEffects.STRENGTH,  60, 2, false, false))).build();
 
     public ModArmorItem(ArmorMaterial material, EquipmentType type, Settings settings) {
         super(material, type, settings);

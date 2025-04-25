@@ -19,6 +19,9 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(new ItemStack(ModItems.PINK_GARNET));
                         entries.add(new ItemStack(ModBlocks.PINK_GARNET_BLOCK));
+
+                        entries.add(new ItemStack(ModItems.CHISEL));
+
                         entries.add(new ItemStack(ModItems.RAW_PINK_GARNET));
                         entries.add(new ItemStack(ModBlocks.RAW_PINK_GARNET_BLOCK));
                         entries.add(new ItemStack(ModBlocks.PINK_GARNET_ORE));
@@ -47,6 +50,9 @@ public class ModItemGroups {
                         entries.add(new ItemStack(ModItems.PINK_GARNET_BOOTS));
 
                         entries.add(new ItemStack(ModItems.PINK_GARNET_HORSE_ARMOR));
+
+
+                        entries.add(new ItemStack(ModItems.KAUPEN_BOW));
 
 
                     }).build());

@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bettermc:item/chisel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "bettermc:used": 1
+      },
+      "model": "bettermc:item/chisel_used"
+    }
+  ]
+}
