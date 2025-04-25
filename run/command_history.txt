@@ -6,3 +6,8 @@
 /give Player967 bettermc:pink_garnet_stairs
 /give Player253 bettermc:pink_garnet_slab
 /time set day
+/enchant Player591 minecraft:sharpness 5
+/time set day
+/gamerule doDaylightCycle false
+/enchant Player786 minecraft:sharpness 5
+/enchant Player786 minecraft:sharpness 9

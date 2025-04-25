@@ -122,3 +122,22 @@
 [20:39:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
 [20:39:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
 [20:39:47] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:54:56] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[20:54:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:54:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:54:56] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:54:57] [Server thread/INFO] (Minecraft) Player353 lost connection: Disconnected
+[20:54:57] [Server thread/INFO] (Minecraft) Player353 left the game
+[20:54:57] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[20:54:57] [Server thread/INFO] (Minecraft) Stopping server
+[20:54:57] [Server thread/INFO] (Minecraft) Saving players
+[20:54:57] [Server thread/INFO] (Minecraft) Saving worlds
+[20:54:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:54:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:54:57] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:54:57] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[20:54:57] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:54:57] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:54:57] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[20:54:57] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
+[20:54:57] [Render thread/INFO] (Minecraft) Stopping!

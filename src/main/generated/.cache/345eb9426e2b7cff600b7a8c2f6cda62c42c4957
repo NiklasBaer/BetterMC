@@ -1,2 +1,7 @@
-// 1.21.3	2025-04-25T16:14:29.3662481	BetterMC/Tags for minecraft:item
+// 1.21.3	2025-04-25T20:38:49.9617089	BetterMC/Tags for minecraft:item
+ccbbe0c5522d3853f03c90c1bd69470bf580596a data\minecraft\tags\item\swords.json
+2cab6dba25eb28b52c48c41d45a3bbcac9c48ec9 data\minecraft\tags\item\hoes.json
+c329ef199b207357e67d92399bd1ac8e075ea679 data\minecraft\tags\item\axes.json
+22fd62b9132d0897d560e91b0e41093782b5cb6e data\minecraft\tags\item\shovels.json
+17c541385965da2f42b7275dfa18dc01e0532144 data\minecraft\tags\item\pickaxes.json
 24cded315d12f28c0cceb381f074b10f1931e359 data\bettermc\tags\item\transformable_items.json
