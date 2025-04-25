@@ -33,6 +33,14 @@ public class ModItemGroups {
                         entries.add(new ItemStack(ModBlocks.PINK_GARNET_PRESSURE_PLATE));
                         entries.add(new ItemStack(ModBlocks.PINK_GARNET_BUTTON));
 
+                        entries.add(new ItemStack(ModItems.PINK_GARNET_SWORD));
+                        entries.add(new ItemStack(ModItems.PINK_GARNET_PICKAXE));
+                        entries.add(new ItemStack(ModItems.PINK_GARNET_AXE));
+                        entries.add(new ItemStack(ModItems.PINK_GARNET_SHOVEL));
+                        entries.add(new ItemStack(ModItems.PINK_GARNET_HOE));
+
+                        entries.add(new ItemStack(ModItems.PINK_GARNET_HAMMER));
+
 
                     }).build());
 

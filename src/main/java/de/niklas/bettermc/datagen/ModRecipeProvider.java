@@ -7,8 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.RecipeGenerator;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemConvertible;
-import net.minecraft.recipe.SmeltingRecipe;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
@@ -94,6 +93,60 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(ModBlocks.PALLADIUM_BLOCK), conditionsFromItem(ModBlocks.PALLADIUM_BLOCK))
                         .offerTo(exporter);
 
+
+                createShaped(RecipeCategory.MISC, ModItems.PINK_GARNET_SWORD, 1)
+                        .input('#', ModItems.PINK_GARNET)
+                        .input('X', Items.STICK)
+                        .pattern(" # ")
+                        .pattern(" # ")
+                        .pattern(" X ")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PINK_GARNET_PICKAXE, 1)
+                        .input('#', ModItems.PINK_GARNET)
+                        .input('X', Items.STICK)
+                        .pattern("###")
+                        .pattern(" X ")
+                        .pattern(" X ")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PINK_GARNET_SHOVEL, 1)
+                        .input('#', ModItems.PINK_GARNET)
+                        .input('X', Items.STICK)
+                        .pattern(" # ")
+                        .pattern(" X ")
+                        .pattern(" X ")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PINK_GARNET_AXE, 1)
+                        .input('#', ModItems.PINK_GARNET)
+                        .input('X', Items.STICK)
+                        .pattern(" ##")
+                        .pattern(" X#")
+                        .pattern(" X ")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PINK_GARNET_HOE, 1)
+                        .input('#', ModItems.PINK_GARNET)
+                        .input('X', Items.STICK)
+                        .pattern(" ##")
+                        .pattern(" X ")
+                        .pattern(" X ")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PINK_GARNET_HAMMER, 1)
+                        .input('#', ModBlocks.PINK_GARNET_BLOCK)
+                        .input('X', Items.STICK)
+                        .pattern("###")
+                        .pattern("###")
+                        .pattern(" X ")
+                        .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                        .offerTo(exporter);
             }
         };
     }

@@ -1,6 +1,11 @@
 package de.niklas.bettermc.client;
 
+import de.niklas.bettermc.block.ModBlocks;
+import de.niklas.bettermc.item.ModItemGroups;
+import de.niklas.bettermc.item.ModItems;
+import de.niklas.bettermc.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 
 public class Bettermc implements ModInitializer {
 
@@ -9,5 +14,11 @@ public class Bettermc implements ModInitializer {
     @Override
     public void onInitialize() {
 
+        ModItemGroups.registerItemGroups();
+
+        ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
+
+        PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
     }
 }

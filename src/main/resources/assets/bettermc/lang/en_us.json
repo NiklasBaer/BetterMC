@@ -28,5 +28,12 @@
   "item.bettermc.pink_wall": "Pink Garnet Wall",
   "item.bettermc.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
   "item.bettermc.pink_garnet_button": "Pink Garnet Button",
-  "item.bettermc.pink_garnet.wall" : "Pink Garnet Wall"
+  "item.bettermc.pink_garnet.wall" : "Pink Garnet Wall",
+
+  "item.bettermc.pink_garnet_sword": "Pink Garnet Sword",
+  "item.bettermc.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
+  "item.bettermc.pink_garnet_axe": "Pink Garnet Axe",
+  "item.bettermc.pink_garnet_shovel": "Pink Garnet Shovel",
+  "item.bettermc.pink_garnet_hoe": "Pink Garnet Hoe",
+  "item.bettermc.pink_garnet_hammer": "Pink Garnet Hammer"
 }
