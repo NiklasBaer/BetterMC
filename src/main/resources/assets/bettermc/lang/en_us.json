@@ -34,5 +34,10 @@
   "item.bettermc.pink_garnet_leggings": "Pink Garnet Leggings",
   "item.bettermc.pink_garnet_boots": "Pink Garnet Boots",
   "item.bettermc.pink_garnet_horse_armor": "Pink Garnet Horse Armor",
-  "item.bettermc.chisel": "Chisel"
+  "item.bettermc.pink_garnet_chisel": "Pink Garnet Chisel",
+  "item.betternc.kaupen_bow": "Kaupen Bow",
+  "item.bettermc.chisel": "Chisel",
+  "tooltip.bettermc.chisel.shift_down" : "Hear that? That's the sound of a chisel!",
+  "tooltip.bettermc.chisel" : "Hold Shift for more options"
+
 }

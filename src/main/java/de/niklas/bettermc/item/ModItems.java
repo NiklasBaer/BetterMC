@@ -73,6 +73,7 @@ public class ModItems {
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Bettermc.MOD_ID, "chisel"))).maxDamage(32)));
 
 
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM , Identifier.of(Bettermc.MOD_ID, name), item);
     }
