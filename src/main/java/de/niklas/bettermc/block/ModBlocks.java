@@ -1,5 +1,7 @@
 package de.niklas.bettermc.block;
 
+import  net.minecraft.client.MinecraftClient;
+
 import de.niklas.bettermc.client.Bettermc;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;

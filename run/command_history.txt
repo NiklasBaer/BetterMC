@@ -15,3 +15,6 @@
 /clear Player107
 /summon minecraft:horse
 /give Player559 bettermc:chisel_use
+/enchant Player648 minecraft:infinity
+/enchant Player702 minecraft:infinity
+/summon minecraft:sheep
