@@ -53,6 +53,7 @@ public class ModItemGroups {
 
 
                         entries.add(new ItemStack(ModItems.KAUPEN_BOW));
+                        entries.add(new ItemStack(ModItems.BAR_BRAWL_MUSIC_DISC));
 
 
                     }).build());

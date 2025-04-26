@@ -2,6 +2,7 @@ package de.niklas.bettermc.client;
 
 import de.niklas.bettermc.block.ModBlocks;
 import de.niklas.bettermc.component.ModDataComponentTypes;
+import de.niklas.bettermc.effect.ModEffects;
 import de.niklas.bettermc.item.ModItemGroups;
 import de.niklas.bettermc.item.ModItems;
 import de.niklas.bettermc.sound.ModSounds;
@@ -30,6 +31,7 @@ public class Bettermc implements ModInitializer {
 
         ModDataComponentTypes.registerDataComponentTypes();
         ModSounds.registerSounds();
+        ModEffects.registerEffects();
 
         PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
         AttackEntityCallback.EVENT.register((player, world, hand, entity, hitResult) -> {

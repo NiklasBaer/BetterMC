@@ -1,8 +1,9 @@
-// 1.21.3	2025-04-26T09:58:20.3135812	BetterMC/Model Definitions
+// 1.21.3	2025-04-26T11:32:07.1872266	BetterMC/Model Definitions
 d89d252b07988eb41a0001fae7d8cb24f8b5cd63 assets\bettermc\models\block\pink_garnet_slab_top.json
 d4f8144cc030d33cd5a2213ce255619048128997 assets\bettermc\models\item\pink_garnet_helmet.json
 e9f70fef93400df1df0d354e372f0c169e941387 assets\bettermc\models\item\pink_garnet_helmet_netherite_trim.json
 1d53157efdbc2b07c1238a992f67dcffe7b86a38 assets\bettermc\models\item\pink_garnet_leggings_iron_trim.json
+7b4c5406c390621937107e25959b0382d4eb8539 assets\bettermc\models\item\bar_brawl_music_disc.json
 d04af5a71deb8bf71c8612a1bfa007e9f90f7382 assets\bettermc\models\block\pink_garnet_door_bottom_right_open.json
 a11aabbe8cd7f9073871e658603956af140c8179 assets\bettermc\models\item\pink_garnet_leggings_quartz_trim.json
 487393d1ccd1533e1e951c8089e67571685e2313 assets\bettermc\models\block\pink_garnet_wall_side.json
@@ -101,8 +102,8 @@ b758206165ac366fae969b091758e4391458766a assets\bettermc\models\item\pink_garnet
 1d0cd6e97c2ffd9ffe6a7eb742682dbbe6579c59 assets\bettermc\models\block\pink_garnet_door_bottom_left.json
 4e592c29255b27aaaae88b42445157ae5a52d10d assets\bettermc\models\block\pink_garnet_ore.json
 a2f07726e799fed35e3b398b6020da7f0c7d3c34 assets\bettermc\models\item\pink_garnet_helmet_iron_trim.json
-3cae8093e6818eaee458b2562f56c8178b3a18d8 assets\bettermc\blockstates\pink_garnet_door.json
 cf4534e88c5868a4b2749794a60254b9ff5b023c assets\bettermc\models\block\pink_garnet_button.json
+3cae8093e6818eaee458b2562f56c8178b3a18d8 assets\bettermc\blockstates\pink_garnet_door.json
 65830bc1c971238c1aab9ff4afc4847792497fe1 assets\bettermc\models\block\pink_garnet_block.json
 62b5d95a470febce5dfe196c84e781ec28860555 assets\bettermc\blockstates\pink_garnet_pressure_plate.json
 dcfcebee6cbb889a7809cd73460a2319ce9faa46 assets\bettermc\models\item\pink_garnet_sword.json

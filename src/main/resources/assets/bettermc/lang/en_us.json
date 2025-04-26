@@ -1,6 +1,6 @@
 {
   "item.bettermc.pink_garnet": "Pink Garnet",
-  "item.bettermc.raw_pink_garnet": "Raw_Pink Garnet",
+  "item.bettermc.raw_pink_garnet": "Raw Pink Garnet",
   "item.bettermc.pink_garnet_block": "Pink Garnet Block",
   "item.bettermc.raw_pink_garnet_block": "Raw Pink Garnet Block",
   "item.bettermc.pink_garnet_ore": "Pink Garnet Ore",
@@ -18,11 +18,11 @@
   "item.bettermc.pink_garnet_stairs": "Pink Garnet Stairs",
   "item.bettermc.pink_garnet_fence": "Pink Garnet Fence",
   "item.bettermc.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
-  "item.bettermc.pink_trapdoor": "Pink Garnet Trapdoor",
+  "item.bettermc.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
   "item.bettermc.pink_wall": "Pink Garnet Wall",
   "item.bettermc.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
   "item.bettermc.pink_garnet_button": "Pink Garnet Button",
-  "item.bettermc.pink_garnet.wall": "Pink Garnet Wall",
+  "item.bettermc.pink_garnet_wall": "Pink Garnet Wall",
   "item.bettermc.pink_garnet_sword": "Pink Garnet Sword",
   "item.bettermc.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
   "item.bettermc.pink_garnet_axe": "Pink Garnet Axe",
@@ -35,9 +35,11 @@
   "item.bettermc.pink_garnet_boots": "Pink Garnet Boots",
   "item.bettermc.pink_garnet_horse_armor": "Pink Garnet Horse Armor",
   "item.bettermc.pink_garnet_chisel": "Pink Garnet Chisel",
-  "item.betternc.kaupen_bow": "Kaupen Bow",
+  "item.bettermc.kaupen_bow": "Kaupen Bow",
   "item.bettermc.chisel": "Chisel",
   "tooltip.bettermc.chisel.shift_down" : "Hear that? That's the sound of a chisel!",
-  "tooltip.bettermc.chisel" : "Hold Shift for more options"
-
+  "tooltip.bettermc.chisel" : "Hold Shift for more options",
+  "item.bettermc.bar_brawl_music_disc": "Bar Brawl Musica Disc",
+  "item.bettermc.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CCB)",
+  "effect.bettermc.spider": "Spider"
 }
