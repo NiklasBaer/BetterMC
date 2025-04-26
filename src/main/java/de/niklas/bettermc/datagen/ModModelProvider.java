@@ -60,8 +60,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.PINK_GARNET_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_GARNET_HAMMER, Models.HANDHELD);
 
+
+
         itemModelGenerator.register(ModItems.PINK_GARNET_HORSE_ARMOR, Models.GENERATED);
         //itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+
 
         itemModelGenerator.registerArmor(ModItems.PINK_GARNET_HELMET, Identifier.of(Bettermc.MOD_ID, "pink_garnet"),
                 EquipmentModel.builder().addHumanoidLayers(Identifier.of(Bettermc.MOD_ID, "pink_garnet")).build(), EquipmentSlot.HEAD);
@@ -74,7 +77,7 @@ public class ModModelProvider extends FabricModelProvider {
 
 
 
-
+        itemModelGenerator.register(ModItems.BAR_BRAWL_MUSIC_DISC, Models.GENERATED);
 
 
 

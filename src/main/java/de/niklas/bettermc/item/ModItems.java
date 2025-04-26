@@ -4,6 +4,7 @@ import de.niklas.bettermc.client.Bettermc;
 import de.niklas.bettermc.item.custom.ChiselItem;
 import de.niklas.bettermc.item.custom.HammerItem;
 import de.niklas.bettermc.item.custom.ModArmorItem;
+import de.niklas.bettermc.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.item.equipment.EquipmentType;
@@ -71,6 +72,12 @@ public class ModItems {
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings()
             .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Bettermc.MOD_ID, "chisel"))).maxDamage(32)));
+
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Bettermc.MOD_ID, "bar_brawl_music_disc")))
+                    .jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).maxCount(1)));
+
+
 
 
     private static Item registerItem(String name, Item item) {

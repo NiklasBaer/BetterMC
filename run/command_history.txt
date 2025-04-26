@@ -15,3 +15,29 @@
 /clear Player107
 /summon minecraft:horse
 /give Player559 bettermc:chisel_use
+/enchant Player648 minecraft:infinity
+/enchant Player702 minecraft:infinity
+/summon minecraft:sheep
+/playsound bettermc:bar_brawl
+/stopsound
+/stopsound Player717 *
+/stopsound Player717 * bettermc:bar_brawl
+/playsound bettermc:bar_brawl1
+/stopsound Player717 * bettermc:bar_brawl
+/stopsound Player623 * bettermc:bar_brawl1r_brawl
+/stopsound Player623 * bettermc:bar_brawl1
+/playsound bettermc:bar_brawl2
+/stopsound Player449 * bettermc:bar_brawl2
+/playsound bettermc:bar_brawl3
+/stopsound Player449 * bettermc:bar_brawl3
+/playsound bettermc:bar_brawl2
+/stopsound Player605 * bettermc:bar_brawl2
+/playsound bettermc:bar_brawl3
+/stopsound Player605 * bettermc:bar_brawl3
+/effect give Player690 bettermc:slimey
+/kill @e
+/summon minecraft:horse
+/effect give Player690 bettermc:slimey
+/effect give Player690 bettermc:spider
+/effect give Player25 bettermc:spider
+/effect clear

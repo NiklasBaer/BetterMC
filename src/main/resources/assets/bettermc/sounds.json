@@ -4,5 +4,29 @@
     "sounds": [
       "bettermc:chisel_use"
     ]
-  }
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name":"bettermc:bar_brawl",
+        "stream": true
+      }
+    ]
+  },
+  "bar_brawl2": {
+    "sounds": [
+      {
+        "name":"bettermc:bar_brawl2",
+        "stream": true
+      }
+    ]
+  },
+    "bar_brawl3": {
+        "sounds": [
+        {
+            "name":"bettermc:bar_brawl3",
+            "stream": true
+        }
+        ]
+    }
 }
