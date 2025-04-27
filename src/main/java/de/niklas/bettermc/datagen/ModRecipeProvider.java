@@ -177,6 +177,54 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("# #")
                         .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
                         .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PALLADIUM_SWORD, 1)
+                        .input('#', ModItems.PALLADIUM_INGOT)
+                        .input('X', Items.IRON_SWORD)
+                        .pattern(" # ")
+                        .pattern(" # ")
+                        .pattern(" X ")
+                        .criterion(hasItem(ModItems.PALLADIUM_INGOT), conditionsFromItem(ModItems.PALLADIUM_INGOT))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PALLADIUM_PICKAXE, 1)
+                        .input('#', ModItems.PALLADIUM_INGOT)
+                        .input('X', Items.IRON_PICKAXE)
+                        .pattern("###")
+                        .pattern(" X ")
+                        .pattern(" # ")
+                        .criterion(hasItem(ModItems.PALLADIUM_INGOT), conditionsFromItem(ModItems.PALLADIUM_INGOT))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PALLADIUM_SHOVEL, 1)
+                        .input('#', ModItems.PALLADIUM_INGOT)
+                        .input('X', Items.IRON_SHOVEL)
+                        .pattern(" # ")
+                        .pattern(" X ")
+                        .pattern(" # ")
+                        .criterion(hasItem(ModItems.PALLADIUM_INGOT), conditionsFromItem(ModItems.PALLADIUM_INGOT))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PALLADIUM_AXE, 1)
+                        .input('#', ModItems.PALLADIUM_INGOT)
+                        .input('X', Items.IRON_AXE)
+                        .pattern(" ##")
+                        .pattern(" X#")
+                        .pattern(" # ")
+                        .criterion(hasItem(ModItems.PALLADIUM_INGOT), conditionsFromItem(ModItems.PALLADIUM_INGOT))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.PALLADIUM_HOE, 1)
+                        .input('#', ModItems.PALLADIUM_INGOT)
+                        .input('X', Items.IRON_HOE)
+                        .pattern(" ##")
+                        .pattern(" X ")
+                        .pattern(" # ")
+                        .criterion(hasItem(ModItems.PALLADIUM_INGOT), conditionsFromItem(ModItems.PALLADIUM_INGOT))
+                        .offerTo(exporter);
+
+
+                offerNetheriteUpgradeRecipe(Items.IRON_SWORD, RecipeCategory.TOOLS, ModItems.PALLADIUM_SWORD);
             }
         };
     }

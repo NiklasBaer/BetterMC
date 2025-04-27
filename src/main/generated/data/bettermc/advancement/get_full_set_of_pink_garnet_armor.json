@@ -1,0 +1,69 @@
+{
+  "criteria": {
+    "get_pink_garnet_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:pink_garnet_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_pink_garnet_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:pink_garnet_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_pink_garnet_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:pink_garnet_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_pink_garnet_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:pink_garnet_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/item/pink_garnet_chestplate.png",
+    "description": "What does it feel?",
+    "icon": {
+      "count": 1,
+      "id": "bettermc:pink_garnet_chestplate"
+    },
+    "title": "Get Full Set of Pink Garnet Armor"
+  },
+  "requirements": [
+    [
+      "get_pink_garnet_helmet"
+    ],
+    [
+      "get_pink_garnet_chestplate"
+    ],
+    [
+      "get_pink_garnet_leggings"
+    ],
+    [
+      "get_pink_garnet_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

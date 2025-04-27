@@ -1,16 +1,3 @@
-/difficulty peaceful
-/give Player387 bettermc:pink_garnet_deepslate_ore
-/time set day
-/enchant Player447 minecraft:fortune 3
-/enchant Player702 minecraft:efficiency 5
-/give Player967 bettermc:pink_garnet_stairs
-/give Player253 bettermc:pink_garnet_slab
-/time set day
-/enchant Player591 minecraft:sharpness 5
-/time set day
-/gamerule doDaylightCycle false
-/enchant Player786 minecraft:sharpness 5
-/enchant Player786 minecraft:sharpness 9
 /clear Player982
 /clear Player107
 /summon minecraft:horse
@@ -41,3 +28,23 @@
 /effect give Player690 bettermc:spider
 /effect give Player25 bettermc:spider
 /effect clear
+/give Player792 minecraft:painting
+/place template
+/place template fabric-gametest-api-v1:empty
+/clear Player89
+/weather clear
+/enchant Player43 bettermc:thundering
+/enchant Player43 bettermc:thundering 3
+/enchant Player43 bettermc:thundering 2
+/enchant Player43 bettermc:thundering 0
+/enchant Player43 bettermc:thundering 3
+/summon minecraft:warden
+/summon minecraft:horse
+/clear @e
+/clear @s
+/clear @a
+/clear @n
+/enchant Player219 bettermc:lightning_strike 3
+/summon minecraft:warden
+/summon minecraft:horse
+/enchant Player219 bettermc:lightning_strike 3

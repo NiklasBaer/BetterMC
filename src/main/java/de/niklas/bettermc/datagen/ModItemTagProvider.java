@@ -23,19 +23,24 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.RAW_PALLADIUM);
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.PINK_GARNET_SWORD);
+                .add(ModItems.PINK_GARNET_SWORD)
+                .add(ModItems.PALLADIUM_SWORD);
 
         getOrCreateTagBuilder(ItemTags.PICKAXES)
-                .add(ModItems.PINK_GARNET_PICKAXE);
+                .add(ModItems.PINK_GARNET_PICKAXE)
+                .add(ModItems.PALLADIUM_PICKAXE);
 
         getOrCreateTagBuilder(ItemTags.SHOVELS)
-                .add(ModItems.PINK_GARNET_SHOVEL);
+                .add(ModItems.PINK_GARNET_SHOVEL)
+                .add(ModItems.PALLADIUM_SHOVEL);
 
         getOrCreateTagBuilder(ItemTags.AXES)
-                .add(ModItems.PINK_GARNET_AXE);
+                .add(ModItems.PINK_GARNET_AXE)
+                .add(ModItems.PALLADIUM_AXE);
 
         getOrCreateTagBuilder(ItemTags.HOES)
-                .add(ModItems.PINK_GARNET_HOE);
+                .add(ModItems.PINK_GARNET_HOE)
+                .add(ModItems.PALLADIUM_HOE);
 
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.PINK_GARNET_HELMET)
@@ -45,7 +50,13 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.BOW_ENCHANTABLE)
                 .add(ModItems.KAUPEN_BOW);
-        
+
+        getOrCreateTagBuilder(ModTags.Items.PINK_GARNET_REPAIR)
+                .add(ModItems.PINK_GARNET);
+
+        getOrCreateTagBuilder(ModTags.Items.PALLADIUM_REPAIR)
+                .add(ModItems.PALLADIUM_INGOT);
+
 
     }
 }

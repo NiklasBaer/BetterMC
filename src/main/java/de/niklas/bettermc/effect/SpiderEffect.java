@@ -6,10 +6,10 @@ import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.Vec3d;
 
-public class SpiederEffect extends StatusEffect {
+public class SpiderEffect extends StatusEffect {
 
 
-    public SpiederEffect(StatusEffectCategory category, int color) {
+    public SpiderEffect(StatusEffectCategory category, int color) {
         super(category, color);
     }
 

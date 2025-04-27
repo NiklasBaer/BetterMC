@@ -137,5 +137,137 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_axe": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 14:32:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_shovel": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 14:32:18 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_sword": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 14:32:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_pickaxe": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 14:32:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-04-27 14:32:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:32:01 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_hoe": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 14:32:18 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 4082
 }

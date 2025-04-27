@@ -53,12 +53,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-04-25 15:39:13 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2025-04-25 15:39:12 +0200"
@@ -95,12 +89,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2025-04-25 15:39:13 +0200"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/barrel": {
     "criteria": {
       "has_wood_slab": "2025-04-25 15:39:12 +0200"
@@ -134,6 +122,144 @@
   "bettermc:recipes/building_blocks/palladium_block": {
     "criteria": {
       "has_palladium_ingot": "2025-04-25 15:39:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-25 15:39:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-04-25 15:39:13 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_axe": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_shovel": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_sword": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_pickaxe": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-04-27 14:33:46 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_hoe": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 14:33:46 +0200"
     },
     "done": true
   },

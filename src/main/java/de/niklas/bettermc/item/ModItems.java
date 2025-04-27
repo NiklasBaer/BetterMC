@@ -79,6 +79,23 @@ public class ModItems {
 
 
 
+    public static final Item PALLADIUM_PICKAXE = registerItem("palladium_pickaxe",
+            new PickaxeItem(ModToolMaterials.PALLADIUM, 1, -3f, new Item.Settings().fireproof()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Bettermc.MOD_ID, "palladium_pickaxe")))));
+    public static final Item PALLADIUM_AXE = registerItem("palladium_axe",
+            new AxeItem(ModToolMaterials.PALLADIUM, 7, -2.8f, new Item.Settings().fireproof()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Bettermc.MOD_ID, "palladium_axe")))));
+    public static final Item PALLADIUM_HOE = registerItem("palladium_hoe",
+            new HoeItem(ModToolMaterials.PALLADIUM, 0, -2f, new Item.Settings().fireproof()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Bettermc.MOD_ID, "palladium_hoe")))));
+    public static final Item PALLADIUM_SWORD = registerItem("palladium_sword",
+            new SwordItem(ModToolMaterials.PALLADIUM, 4, -3.4f, new Item.Settings().fireproof()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Bettermc.MOD_ID, "palladium_sword")))));
+    public static final Item PALLADIUM_SHOVEL = registerItem("palladium_shovel",
+            new ShovelItem(ModToolMaterials.PALLADIUM, 1.5f, -2f, new Item.Settings().fireproof()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Bettermc.MOD_ID, "palladium_shovel")))));
+
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM , Identifier.of(Bettermc.MOD_ID, name), item);

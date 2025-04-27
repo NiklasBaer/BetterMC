@@ -1,0 +1,138 @@
+{
+  "bettermc:recipes/misc/pink_garnet_axe": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-27 21:03:13 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_axe": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 21:02:29 +0200"
+    },
+    "done": true
+  },
+  "bettermc:get_palladium": {
+    "criteria": {
+      "get_palladium": "2025-04-27 21:02:29 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/pink_garnet_pickaxe": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-27 21:03:13 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_shovel": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 21:02:29 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_sword": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 21:02:29 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/pink_garnet_sword": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-27 21:03:13 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/pink_garnet_chestplate": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-27 21:03:13 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/pink_garnet_boots": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-27 21:03:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-27 21:02:29 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/building_blocks/pink_garnet_block": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-27 21:03:13 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/pink_garnet_helmet": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-27 21:03:13 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/pink_garnet_leggings": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-27 21:03:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-04-27 21:02:30 +0200"
+    },
+    "done": false
+  },
+  "bettermc:get_pink_garnet": {
+    "criteria": {
+      "get_pink_garnet": "2025-04-27 21:03:13 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_pickaxe": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 21:02:29 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/pink_garnet_shovel": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-27 21:03:13 +0200"
+    },
+    "done": true
+  },
+  "bettermc:get_full_set_of_pink_garnet_armor": {
+    "criteria": {
+      "get_pink_garnet_boots": "2025-04-27 21:03:26 +0200",
+      "get_pink_garnet_helmet": "2025-04-27 21:03:22 +0200",
+      "get_pink_garnet_leggings": "2025-04-27 21:03:25 +0200",
+      "get_pink_garnet_chestplate": "2025-04-27 21:03:24 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/pink_garnet_hammer": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-27 21:03:13 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/pink_garnet_hoe": {
+    "criteria": {
+      "has_pink_garnet": "2025-04-27 21:03:13 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/building_blocks/palladium_block": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 21:02:29 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_hoe": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 21:02:29 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4082
+}

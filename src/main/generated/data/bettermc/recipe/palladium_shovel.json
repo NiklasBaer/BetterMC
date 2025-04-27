@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "bettermc:palladium_ingot",
+    "X": "minecraft:iron_shovel"
+  },
+  "pattern": [
+    " # ",
+    " X ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "bettermc:palladium_shovel"
+  }
+}

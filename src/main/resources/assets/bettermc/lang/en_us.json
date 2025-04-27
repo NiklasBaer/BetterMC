@@ -41,5 +41,21 @@
   "tooltip.bettermc.chisel" : "Hold Shift for more options",
   "item.bettermc.bar_brawl_music_disc": "Bar Brawl Musica Disc",
   "item.bettermc.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CCB)",
-  "effect.bettermc.spider": "Spider"
+
+  "effect.bettermc.spider": "Spider",
+  "item.minecraft.potion.effect.spider_potion": "Spider",
+  "item.minecraft.splash_potion.effect.spider_potion": "Spider",
+  "item.minecraft.lingering_potion.effect.spider_potion": "Spider",
+
+  "painting.bettermc.saw_them.title": "Saw Them",
+  "painting.bettermc.ansgar.title": "Ansgar",
+
+  "item.bettermc.palladium_sword": "Palladium Sword",
+  "item.bettermc.palladium_axe": "Palladium Axe",
+  "item.bettermc.palladium_pickaxe": "Palladium Pickaxe",
+  "item.bettermc.palladium_shovel": "Palladium Shovel",
+  "item.bettermc.palladium_hoe": "Palladium Hoe",
+
+  "enchantment.bettermc.lightning_strike": "Lightning Strike"
+
 }

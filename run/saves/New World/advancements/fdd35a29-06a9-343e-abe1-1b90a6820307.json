@@ -1,0 +1,57 @@
+{
+  "bettermc:recipes/misc/palladium_axe": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 20:56:06 +0200"
+    },
+    "done": true
+  },
+  "bettermc:get_palladium": {
+    "criteria": {
+      "get_palladium": "2025-04-27 20:56:06 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_shovel": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 20:56:06 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_sword": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 20:56:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-27 20:56:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-04-27 20:56:02 +0200"
+    },
+    "done": false
+  },
+  "bettermc:recipes/misc/palladium_pickaxe": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 20:56:06 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/building_blocks/palladium_block": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 20:56:06 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/misc/palladium_hoe": {
+    "criteria": {
+      "has_palladium_ingot": "2025-04-27 20:56:06 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4082
+}

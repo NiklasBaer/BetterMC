@@ -1,0 +1,33 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-27 14:17:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-04-27 14:17:56 +0200"
+    },
+    "done": true
+  },
+  "bettermc:recipes/food/palladium_ingot_from_blasting_raw_palladium": {
+    "criteria": {
+      "has_raw_palladium": "2025-04-27 14:17:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-04-27 14:17:57 +0200"
+    },
+    "done": false
+  },
+  "bettermc:recipes/food/palladium_ingot_from_smelting_raw_palladium": {
+    "criteria": {
+      "has_raw_palladium": "2025-04-27 14:17:56 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4082
+}

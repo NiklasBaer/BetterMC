@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "get_palladium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:palladium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/item/palladium_ingot.png",
+    "description": "Now try to get Palladium gear",
+    "icon": {
+      "count": 1,
+      "id": "bettermc:palladium_ingot"
+    },
+    "title": "Get Palladium"
+  },
+  "requirements": [
+    [
+      "get_palladium"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

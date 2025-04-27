@@ -1,9 +1,11 @@
-// 1.21.3	2025-04-26T11:32:07.1917623	BetterMC/Tags for minecraft:item
-ccbbe0c5522d3853f03c90c1bd69470bf580596a data\minecraft\tags\item\swords.json
-2cab6dba25eb28b52c48c41d45a3bbcac9c48ec9 data\minecraft\tags\item\hoes.json
-c329ef199b207357e67d92399bd1ac8e075ea679 data\minecraft\tags\item\axes.json
+// 1.21.3	2025-04-27T21:02:06.7243711	BetterMC/Tags for minecraft:item
+28c4f1df702e2673f49950d55f5e4e556ca8d228 data\bettermc\tags\item\pink_garnet_repair.json
+2a08efe36aeaa96f2751de20af88133b31d0f3cd data\minecraft\tags\item\swords.json
+f8e65134199977803c71d30d22244327651f7c70 data\minecraft\tags\item\hoes.json
+e6dab859ca545a59ba603fa50ac35d77c4dcfbf3 data\minecraft\tags\item\axes.json
 8f0ef0a823edb8b838f157a9226fc2a63aab8fde data\minecraft\tags\item\trimmable_armor.json
-22fd62b9132d0897d560e91b0e41093782b5cb6e data\minecraft\tags\item\shovels.json
-17c541385965da2f42b7275dfa18dc01e0532144 data\minecraft\tags\item\pickaxes.json
+a97fe7d40491528437c729c5e56752c2ae05f584 data\minecraft\tags\item\pickaxes.json
+f1c9669f78a960446ac5063aff2e684855d8840f data\minecraft\tags\item\shovels.json
 a277f627fd8dc5a0a84f57b3222a2a79b2ad85c4 data\minecraft\tags\item\enchantable\bow.json
 24cded315d12f28c0cceb381f074b10f1931e359 data\bettermc\tags\item\transformable_items.json
+ad89ffb3a6373109ade63234a016b5471ca238ef data\bettermc\tags\item\palladium_repair.json

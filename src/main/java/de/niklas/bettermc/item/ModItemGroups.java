@@ -72,6 +72,13 @@ public class ModItemGroups {
                         entries.add(new ItemStack(ModBlocks.PALLADIUM_DEEPSLATE_ORE));
                         entries.add(new ItemStack(ModBlocks.RAW_PALLADIUM_BLOCK));
 
+
+                        entries.add(new ItemStack(ModItems.PALLADIUM_SWORD));
+                        entries.add(new ItemStack(ModItems.PALLADIUM_PICKAXE));
+                        entries.add(new ItemStack(ModItems.PALLADIUM_AXE));
+                        entries.add(new ItemStack(ModItems.PALLADIUM_SHOVEL));
+                        entries.add(new ItemStack(ModItems.PALLADIUM_HOE));
+
                     }).build());
 
     public static void registerItemGroups() {

@@ -1,13 +1,10 @@
 package de.niklas.bettermc.effect;
 
 import de.niklas.bettermc.client.Bettermc;
-import net.minecraft.entity.EntityData;
-import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
-import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.entry.RegistryEntry;
@@ -15,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModEffects {
 
-    public static final RegistryEntry<StatusEffect> SLIMEY = registerStatusEffect("spider", new SpiederEffect(StatusEffectCategory.NEUTRAL, 0x36ebab)
+    public static final RegistryEntry<StatusEffect> SPIDER = registerStatusEffect("spider", new SpiderEffect(StatusEffectCategory.NEUTRAL, 0x36ebab)
                 .addAttributeModifier(EntityAttributes.MOVEMENT_SPEED,
                         Identifier.of(Bettermc.MOD_ID, "spider"), -0.25f,
                         EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));

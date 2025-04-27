@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "get_pink_garnet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:pink_garnet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/item/pink_garnet.png",
+    "description": "Now try to get Pink Garnet gear",
+    "icon": {
+      "count": 1,
+      "id": "bettermc:pink_garnet"
+    },
+    "title": "Get Pink Garnet"
+  },
+  "requirements": [
+    [
+      "get_pink_garnet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

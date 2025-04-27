@@ -3,17 +3,21 @@ package de.niklas.bettermc.client;
 import de.niklas.bettermc.block.ModBlocks;
 import de.niklas.bettermc.component.ModDataComponentTypes;
 import de.niklas.bettermc.effect.ModEffects;
+import de.niklas.bettermc.entchanment.ModEnchantmentEffects;
 import de.niklas.bettermc.item.ModItemGroups;
 import de.niklas.bettermc.item.ModItems;
+import de.niklas.bettermc.potion.ModPotion;
 import de.niklas.bettermc.sound.ModSounds;
 import de.niklas.bettermc.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.passive.SheepEntity;
 import net.minecraft.item.Items;
+import net.minecraft.potion.Potions;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 
@@ -32,6 +36,9 @@ public class Bettermc implements ModInitializer {
         ModDataComponentTypes.registerDataComponentTypes();
         ModSounds.registerSounds();
         ModEffects.registerEffects();
+        ModPotion.registerPotions();
+
+        ModEnchantmentEffects.registerModEnchantmentEffects();
 
         PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
         AttackEntityCallback.EVENT.register((player, world, hand, entity, hitResult) -> {
@@ -52,6 +59,10 @@ public class Bettermc implements ModInitializer {
 
             return ActionResult.PASS;
 
+        });
+
+        FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+            builder.registerPotionRecipe(Potions.AWKWARD, Items.STRING, ModPotion.SPIDER_POTION);
         });
 
     }
