@@ -49,26 +49,26 @@ public class ModBlocks {
     public static final Block PINK_GARNET_ORE = register(
             "pink_garnet_ore",
             settings -> new ExperienceDroppingBlock(UniformIntProvider.create(3,7), settings),
-            AbstractBlock.Settings.create().strength(2f, 6.0f).sounds(BlockSoundGroup.STONE),
+            AbstractBlock.Settings.create().strength(2f, 6.0f).sounds(BlockSoundGroup.STONE).requiresTool(),
             true);
 
 
     public static final Block PINK_GARNET_DEEPSLATE_ORE = register(
             "pink_garnet_deepslate_ore",
             settings -> new ExperienceDroppingBlock(UniformIntProvider.create(3,7), settings),
-            AbstractBlock.Settings.create().strength(2f, 6.0f).sounds(BlockSoundGroup.DEEPSLATE),
+            AbstractBlock.Settings.create().strength(2f, 6.0f).sounds(BlockSoundGroup.DEEPSLATE).requiresTool(),
             true);
 
     public static final Block PALLADIUM_ORE = register(
             "palladium_ore",
             settings -> new ExperienceDroppingBlock(UniformIntProvider.create(3,7), settings),
-            AbstractBlock.Settings.create().strength(2f, 6.0f).sounds(BlockSoundGroup.STONE),
+            AbstractBlock.Settings.create().strength(2f, 6.0f).sounds(BlockSoundGroup.STONE).requiresTool(),
             true);
 
     public static final Block PALLADIUM_DEEPSLATE_ORE = register(
             "palladium_deepslate_ore",
             settings -> new ExperienceDroppingBlock(UniformIntProvider.create(3,7), settings),
-            AbstractBlock.Settings.create().strength(2f, 6.0f).sounds(BlockSoundGroup.DEEPSLATE),
+            AbstractBlock.Settings.create().strength(2f, 6.0f).sounds(BlockSoundGroup.DEEPSLATE).requiresTool(),
             true);
 
     // Non-Block Blocks

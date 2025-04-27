@@ -1,5 +1,7 @@
 {
   "values": [
-    "#minecraft:needs_iron_tool"
+    "#minecraft:needs_iron_tool",
+    "bettermc:pink_garnet_ore",
+    "bettermc:pink_garnet_deepslate_ore"
   ]
 }
