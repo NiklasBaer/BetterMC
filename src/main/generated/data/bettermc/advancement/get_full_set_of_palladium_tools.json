@@ -1,0 +1,83 @@
+{
+  "parent": "bettermc:get_palladium",
+  "criteria": {
+    "get_palladium_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:palladium_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_palladium_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:palladium_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_palladium_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:palladium_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_palladium_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:palladium_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_palladium_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:palladium_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": "What does it feel?",
+    "icon": {
+      "count": 1,
+      "id": "bettermc:palladium_pickaxe"
+    },
+    "title": "Get Full Set of Palladium Tools"
+  },
+  "requirements": [
+    [
+      "get_palladium_sword"
+    ],
+    [
+      "get_palladium_pickaxe"
+    ],
+    [
+      "get_palladium_shovel"
+    ],
+    [
+      "get_palladium_axe"
+    ],
+    [
+      "get_palladium_hoe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

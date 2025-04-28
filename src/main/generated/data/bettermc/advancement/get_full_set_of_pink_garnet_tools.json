@@ -1,0 +1,83 @@
+{
+  "parent": "bettermc:get_pink_garnet",
+  "criteria": {
+    "get_pink_garnet_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:pink_garnet_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_pink_garnet_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:pink_garnet_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_pink_garnet_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:pink_garnet_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_pink_garnet_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:pink_garnet_shovel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "get_pink_garnet_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bettermc:pink_garnet_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": "What does it feel?",
+    "icon": {
+      "count": 1,
+      "id": "bettermc:pink_garnet_pickaxe"
+    },
+    "title": "Get Full Set of Pink Garnet Tools"
+  },
+  "requirements": [
+    [
+      "get_pink_garnet_sword"
+    ],
+    [
+      "get_pink_garnet_pickaxe"
+    ],
+    [
+      "get_pink_garnet_shovel"
+    ],
+    [
+      "get_pink_garnet_axe"
+    ],
+    [
+      "get_pink_garnet_hoe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

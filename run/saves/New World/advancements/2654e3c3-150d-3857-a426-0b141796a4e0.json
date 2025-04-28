@@ -1,0 +1,48 @@
+{
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-04-28 20:42:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-04-28 20:42:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-28 20:42:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-04-28 20:42:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_pickaxe": "2025-04-28 20:42:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-04-28 20:42:16 +0200"
+    },
+    "done": false
+  },
+  "bettermc:get_full_set_of_pink_garnet_armor": {
+    "criteria": {
+      "get_pink_garnet_boots": "2025-04-28 20:42:15 +0200",
+      "get_pink_garnet_helmet": "2025-04-28 20:42:15 +0200",
+      "get_pink_garnet_leggings": "2025-04-28 20:42:15 +0200",
+      "get_pink_garnet_chestplate": "2025-04-28 20:42:15 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 4082
+}

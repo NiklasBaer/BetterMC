@@ -13,7 +13,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/item/pink_garnet.png",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "description": "Now try to get Pink Garnet gear",
     "icon": {
       "count": 1,

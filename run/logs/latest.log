@@ -1,6 +1,6 @@
-[21:20:33] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.3 with Fabric Loader 0.16.13
-[21:20:33] [main/INFO] (FabricLoader) Loading 57 mods:
-	- bettermc 1.0-SNAPSHOT
+[21:47:43] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.3 with Fabric Loader 0.16.13
+[21:47:43] [main/INFO] (FabricLoader) Loading 57 mods:
+	- bettermc 1.0
 	- fabric-api 0.114.0+1.21.3
 	- fabric-api-base 0.4.50+119c825640
 	- fabric-api-lookup-api-v1 1.6.81+fd37071f40
@@ -57,138 +57,133 @@
 	- minecraft 1.21.3
 	- mixinextras 0.4.1
 	- sodium 0.6.13+mc1.21.3
-[21:20:34] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/nikla/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[21:20:34] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[21:20:34] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
-[21:20:34] [main/INFO] (Sodium) Loaded configuration file for Sodium: 43 options available, 0 override(s) found
-[21:20:34] [main/INFO] (Lithium) Loaded configuration file for Lithium: 140 options available, 1 override(s) found
-[21:20:34] [main/INFO] (Lithium) Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[21:20:34] [main/INFO] (Sodium-GraphicsAdapterProbe) Searching for graphics cards...
-[21:20:35] [main/INFO] (Sodium-GraphicsAdapterProbe) Found graphics adapter: AdapterInfo{vendor=AMD, description='AMD Radeon RX 6800 XT', adapterType=0x0000230B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\u0412790.inf_amd64_b0a9eb989e37c81c\B413137\atig6pxx.dll', openglIcdVersion=32.0.13031.3015}
-[21:20:35] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[21:20:36] [Datafixer Bootstrap/INFO] (Minecraft) 237 Datafixer optimizations took 359 milliseconds
-[21:20:36] [main/WARN] (PerfmonDisabled) Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[21:20:41] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:20:41] [Render thread/INFO] (Minecraft) Setting user: Player116
-[21:20:41] [Render thread/INFO] (Indigo) [Indigo] Different rendering plugin detected; not applying Indigo.
-[21:20:42] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
-[21:20:42] [Render thread/INFO] (Minecraft) OpenGL Vendor: ATI Technologies Inc.
-[21:20:42] [Render thread/INFO] (Minecraft) OpenGL Renderer: AMD Radeon RX 6800 XT
-[21:20:42] [Render thread/INFO] (Minecraft) OpenGL Version: 3.2.0 Core Profile Context 25.3.1.250220
-[21:20:43] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, bettermc, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, lithium, sodium
-[21:20:43] [Worker-Main-14/INFO] (Minecraft) Found unifont_all_no_pua-15.1.05.hex, loading
-[21:20:43] [Worker-Main-10/INFO] (Minecraft) Found unifont_jp_patch-15.1.05.hex, loading
-[21:20:44] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:block.spawner.fall
-[21:20:44] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Lautsprecher (Realtek(R) Audio)
-[21:20:44] [Render thread/INFO] (Minecraft) Sound engine started
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[21:20:45] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[21:20:50] [Render thread/INFO] (Minecraft) Loaded 1363 recipes
-[21:20:50] [Render thread/INFO] (Minecraft) Loaded 1477 advancements
-[21:20:50] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.063 ms
-[21:20:50] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.3
-[21:20:50] [Server thread/INFO] (Minecraft) Generating keypair
-[21:20:51] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[21:20:51] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[21:20:51] [Render thread/INFO] (Minecraft) Time elapsed: 247 ms
-[21:20:51] [Server thread/WARN] (TranslationConventionLogWarnings) 
+[21:47:43] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/nikla/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[21:47:43] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[21:47:43] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[21:47:43] [main/INFO] (Lithium) Loaded configuration file for Lithium: 140 options available, 1 override(s) found
+[21:47:43] [main/INFO] (Sodium) Loaded configuration file for Sodium: 43 options available, 0 override(s) found
+[21:47:44] [main/INFO] (Lithium) Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[21:47:44] [main/INFO] (Sodium-GraphicsAdapterProbe) Searching for graphics cards...
+[21:47:44] [main/INFO] (Sodium-GraphicsAdapterProbe) Found graphics adapter: AdapterInfo{vendor=AMD, description='AMD Radeon RX 6800 XT', adapterType=0x0000230B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\u0412790.inf_amd64_b0a9eb989e37c81c\B413137\atig6pxx.dll', openglIcdVersion=32.0.13031.3015}
+[21:47:44] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:47:45] [Datafixer Bootstrap/INFO] (Minecraft) 237 Datafixer optimizations took 311 milliseconds
+[21:47:45] [main/WARN] (PerfmonDisabled) Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[21:47:49] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:47:49] [Render thread/INFO] (Minecraft) Setting user: Player597
+[21:47:49] [Render thread/INFO] (Indigo) [Indigo] Different rendering plugin detected; not applying Indigo.
+[21:47:50] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[21:47:50] [Render thread/INFO] (Minecraft) OpenGL Vendor: ATI Technologies Inc.
+[21:47:50] [Render thread/INFO] (Minecraft) OpenGL Renderer: AMD Radeon RX 6800 XT
+[21:47:50] [Render thread/INFO] (Minecraft) OpenGL Version: 3.2.0 Core Profile Context 25.3.1.250220
+[21:47:51] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, bettermc, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, lithium, sodium
+[21:47:51] [Worker-Main-4/INFO] (Minecraft) Found unifont_jp_patch-15.1.05.hex, loading
+[21:47:51] [Worker-Main-14/INFO] (Minecraft) Found unifont_all_no_pua-15.1.05.hex, loading
+[21:47:52] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:block.spawner.fall
+[21:47:52] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Lautsprecher (Realtek(R) Audio)
+[21:47:52] [Render thread/INFO] (Minecraft) Sound engine started
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21:47:52] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[21:48:00] [Render thread/INFO] (Minecraft) Loaded 1363 recipes
+[21:48:00] [Render thread/INFO] (Minecraft) Loaded 1479 advancements
+[21:48:00] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 985.0 μs
+[21:48:00] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.3
+[21:48:00] [Server thread/INFO] (Minecraft) Generating keypair
+[21:48:01] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[21:48:01] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:48:01] [Render thread/INFO] (Minecraft) Time elapsed: 171 ms
+[21:48:01] [Server thread/WARN] (TranslationConventionLogWarnings) 
 	Dev warning - Untranslated Item Tags detected. Please translate your item tags so other mods such as recipe viewers can properly display your tag's name.
 	The format desired is tag.item.<namespace>.<path> for the translation key with slashes in path turned into periods.
 	To disable this message, set this system property in your runs: `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=SILENCED`.
 	To see individual untranslated item tags found, set the system property to `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=VERBOSE`.
 	Default is `SHORT`.
 
-[21:20:51] [Server thread/INFO] (Minecraft) Changing view distance to 20, from 10
-[21:20:51] [Server thread/INFO] (Minecraft) Changing simulation distance to 20, from 0
-[21:20:52] [Server thread/INFO] (Minecraft) Player116[local:E:433b91bc] logged in with entity id 10 at (14.669810441769602, -56.95568228288453, 20.795451839989482)
-[21:20:52] [Server thread/INFO] (Minecraft) Player116 joined the game
-[21:20:52] [Render thread/INFO] (ChunkBuilder) Started 10 worker threads
-[21:20:52] [Render thread/INFO] (Minecraft) Loaded 71 advancements
-[21:21:50] [Render thread/INFO] (Minecraft) [System] [CHAT] Saved screenshot as 2025-04-27_21.21.50.png
-[21:21:50] [Server thread/INFO] (Minecraft) [Player116: Set own game mode to Survival Mode]
-[21:21:50] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Survival Mode
-[21:21:52] [Server thread/INFO] (Minecraft) [Player116: Set own game mode to Creative Mode]
-[21:21:52] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
-[21:21:56] [Server thread/INFO] (Minecraft) Player116 has made the advancement [Isn't It Iron Pick]
-[21:21:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Player116 has made the advancement [Isn't It Iron Pick]
-[21:21:56] [Render thread/INFO] (Minecraft) Loaded 81 advancements
-[21:22:01] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:22:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:22:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:22:01] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:22:02] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:22:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:22:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:22:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:22:03] [Render thread/WARN] (Minecraft) Failed to load texture: minecraft:textures/item/pink_garnet_chestplate.png
-java.io.FileNotFoundException: minecraft:textures/item/pink_garnet_chestplate.png
-	at knot/net.minecraft.resource.ResourceFactory.method_43043(ResourceFactory.java:23) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at knot/net.minecraft.resource.ResourceFactory.getResourceOrThrow(ResourceFactory.java:23) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.texture.ResourceTexture$TextureData.load(ResourceTexture.java:82) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.texture.ResourceTexture.loadTextureData(ResourceTexture.java:57) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.texture.ResourceTexture.load(ResourceTexture.java:29) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.texture.TextureManager.loadTexture(TextureManager.java:73) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.texture.TextureManager.registerTexture(TextureManager.java:45) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.texture.TextureManager.getTexture(TextureManager.java:95) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.render.RenderPhase$Texture.method_23563(RenderPhase.java:272) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.render.RenderPhase.startDrawing(RenderPhase.java:38) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/com.google.common.collect.ImmutableList.forEach(ImmutableList.java:422) ~[guava-32.1.2-jre.jar:?]
-	at knot/net.minecraft.client.render.RenderLayer$MultiPhase.method_23595(RenderLayer.java:1230) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.render.RenderPhase.startDrawing(RenderPhase.java:38) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.render.RenderLayer.draw(RenderLayer.java:1015) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.render.VertexConsumerProvider$Immediate.draw(VertexConsumerProvider.java:96) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.render.VertexConsumerProvider$Immediate.draw(VertexConsumerProvider.java:85) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.render.VertexConsumerProvider$Immediate.getBuffer(VertexConsumerProvider.java:56) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.gui.DrawContext.drawTexturedQuad(DrawContext.java:442) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.gui.DrawContext.drawSpriteStretched(DrawContext.java:314) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.gui.DrawContext.drawGuiTexture(DrawContext.java:287) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.gui.DrawContext.drawGuiTexture(DrawContext.java:280) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.gui.screen.advancement.AdvancementWidget.renderWidgets(AdvancementWidget.java:159) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.gui.screen.advancement.AdvancementTab.render(AdvancementTab.java:106) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.gui.screen.advancement.AdvancementsScreen.drawAdvancementTree(AdvancementsScreen.java:182) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.gui.screen.advancement.AdvancementsScreen.render(AdvancementsScreen.java:143) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.gui.screen.Screen.renderWithTooltip(Screen.java:116) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.render.GameRenderer.mixinextras$bridge$renderWithTooltip$52(GameRenderer.java) ~[minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.render.GameRenderer.wrapOperation$zce000$fabric-screen-api-v1$onRenderScreen(GameRenderer.java:912) [minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.render.GameRenderer.render(GameRenderer.java:549) [minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1352) [minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.MinecraftClient.run(MinecraftClient.java:933) [minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at knot/net.minecraft.client.main.Main.main(Main.java:265) [minecraft-merged-bf83089941-1.21.3-net.fabricmc.yarn.1_21_3.1.21.3+build.2-v2.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.13.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.13.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.16.13.jar:?]
-	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
-[21:22:11] [Server thread/INFO] (Minecraft) [Player116: Set own game mode to Survival Mode]
-[21:22:11] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Survival Mode
-[21:22:28] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:22:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:22:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:22:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:22:32] [Server thread/INFO] (Minecraft) Player116 lost connection: Disconnected
-[21:22:32] [Server thread/INFO] (Minecraft) Player116 left the game
-[21:22:32] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[21:22:32] [Server thread/INFO] (Minecraft) Stopping server
-[21:22:32] [Server thread/INFO] (Minecraft) Saving players
-[21:22:32] [Server thread/INFO] (Minecraft) Saving worlds
-[21:22:32] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:22:32] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:22:32] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:22:32] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
-[21:22:32] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:22:32] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:22:32] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[21:22:33] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
-[21:22:34] [Render thread/INFO] (Minecraft) Stopping!
+[21:48:01] [Server thread/INFO] (Minecraft) Changing view distance to 20, from 10
+[21:48:01] [Server thread/INFO] (Minecraft) Changing simulation distance to 20, from 0
+[21:48:01] [Server thread/INFO] (Minecraft) Player597[local:E:82bfe0a9] logged in with entity id 26 at (6.620934701789415, -60.0, -6.715090487539354)
+[21:48:01] [Server thread/INFO] (Minecraft) Player597 joined the game
+[21:48:01] [Render thread/INFO] (ChunkBuilder) Started 10 worker threads
+[21:48:02] [Render thread/INFO] (Minecraft) Loaded 16 advancements
+[21:48:03] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[21:48:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21:48:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21:48:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21:48:14] [Render thread/INFO] (Minecraft) Loaded 24 advancements
+[21:48:16] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[21:48:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21:48:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21:48:16] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21:48:48] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[21:48:48] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21:48:48] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21:48:48] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21:48:49] [Server thread/INFO] (Minecraft) Player597 lost connection: Disconnected
+[21:48:49] [Server thread/INFO] (Minecraft) Player597 left the game
+[21:48:50] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[21:48:50] [Server thread/INFO] (Minecraft) Stopping server
+[21:48:50] [Server thread/INFO] (Minecraft) Saving players
+[21:48:50] [Server thread/INFO] (Minecraft) Saving worlds
+[21:48:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21:49:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21:49:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21:49:15] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[21:49:15] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:49:15] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:49:15] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[21:49:15] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
+[21:49:58] [Render thread/INFO] (Minecraft) Loaded 1363 recipes
+[21:49:58] [Render thread/INFO] (Minecraft) Loaded 1479 advancements
+[21:49:58] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 243.6 μs
+[21:49:58] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.3
+[21:49:58] [Server thread/INFO] (Minecraft) Generating keypair
+[21:49:58] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[21:49:58] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[21:49:58] [Render thread/INFO] (Minecraft) Time elapsed: 18 ms
+[21:49:58] [Server thread/WARN] (TranslationConventionLogWarnings) 
+	Dev warning - Untranslated Item Tags detected. Please translate your item tags so other mods such as recipe viewers can properly display your tag's name.
+	The format desired is tag.item.<namespace>.<path> for the translation key with slashes in path turned into periods.
+	To disable this message, set this system property in your runs: `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=SILENCED`.
+	To see individual untranslated item tags found, set the system property to `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=VERBOSE`.
+	Default is `SHORT`.
+
+[21:49:58] [Server thread/INFO] (Minecraft) Changing view distance to 20, from 10
+[21:49:58] [Server thread/INFO] (Minecraft) Changing simulation distance to 20, from 0
+[21:49:58] [Server thread/INFO] (Minecraft) Player597[local:E:19f0e187] logged in with entity id 256 at (14.425738598355275, -60.0, 25.678435087028316)
+[21:49:58] [Server thread/INFO] (Minecraft) Player597 joined the game
+[21:49:58] [Server thread/INFO] (Minecraft) Player597 has made the advancement [Isn't It Iron Pick]
+[21:49:58] [Render thread/INFO] (ChunkBuilder) Started 10 worker threads
+[21:49:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Player597 has made the advancement [Isn't It Iron Pick]
+[21:49:58] [Render thread/INFO] (Minecraft) Loaded 15 advancements
+[21:50:00] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[21:50:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21:50:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21:50:00] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21:50:01] [Server thread/INFO] (Minecraft) Player597 lost connection: Disconnected
+[21:50:01] [Server thread/INFO] (Minecraft) Player597 left the game
+[21:50:01] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[21:50:01] [Server thread/INFO] (Minecraft) Stopping server
+[21:50:01] [Server thread/INFO] (Minecraft) Saving players
+[21:50:01] [Server thread/INFO] (Minecraft) Saving worlds
+[21:50:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21:50:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21:50:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21:50:06] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[21:50:06] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:50:06] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:50:06] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[21:50:06] [Render thread/INFO] (ChunkBuilder) Stopping worker threads
+[21:50:11] [Render thread/INFO] (Minecraft) Deleting level New World (1)
+[21:50:11] [Render thread/INFO] (Minecraft) Attempt 1...
+[21:50:12] [Render thread/INFO] (Minecraft) Stopping!

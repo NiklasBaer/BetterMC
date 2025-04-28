@@ -56,6 +56,8 @@
   "item.bettermc.palladium_shovel": "Palladium Shovel",
   "item.bettermc.palladium_hoe": "Palladium Hoe",
 
-  "enchantment.bettermc.lightning_strike": "Lightning Strike"
+  "enchantment.bettermc.lightning_strike": "Lightning Strike",
+
+  "tooltip.bettermc.pink_garnet_armor": "It got some special powers"
 
 }

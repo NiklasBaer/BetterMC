@@ -1,4 +1,5 @@
 {
+  "parent": "bettermc:get_pink_garnet",
   "criteria": {
     "get_pink_garnet_boots": {
       "conditions": {
@@ -43,7 +44,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/item/pink_garnet_chestplate.png",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "description": "What does it feel?",
     "icon": {
       "count": 1,
