@@ -21,6 +21,9 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> PINK_GARNET_ORE_KEY = registerKey("pink_garnet_ore");
     public static final RegistryKey<ConfiguredFeature<?, ?>> DEEPSLATE_PINK_GARNET_ORE_KEY = registerKey("deepslate_pink_garnet_ore");
 
+    public static final RegistryKey<ConfiguredFeature<?, ?>> PALLADIUM_ORE_KEY = registerKey("palladium_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> DEEPSLATE_PALLADIUM_ORE_KEY = registerKey("deepslate_palladium_ore");
+
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
 
 
@@ -33,12 +36,18 @@ public class ModConfiguredFeatures {
                 OreFeatureConfig.createTarget(deepslateReplaceable, ModBlocks.PINK_GARNET_DEEPSLATE_ORE.getDefaultState())
         );
 
-        List<OreFeatureConfig.Target> deepslatePinkGarnetOres = List.of(
-                OreFeatureConfig.createTarget(deepslateReplaceable, ModBlocks.PINK_GARNET_DEEPSLATE_ORE.getDefaultState())
+        List<OreFeatureConfig.Target> overworldPalladiumOres = List.of(
+                OreFeatureConfig.createTarget(stoneReplaceable, ModBlocks.PALLADIUM_ORE.getDefaultState()),
+                OreFeatureConfig.createTarget(deepslateReplaceable, ModBlocks.PALLADIUM_DEEPSLATE_ORE.getDefaultState())
         );
 
+
+
         register(context, PINK_GARNET_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPinkGarnetOres, 12));
-        register(context, DEEPSLATE_PINK_GARNET_ORE_KEY, Feature.ORE, new OreFeatureConfig(deepslatePinkGarnetOres, 12));
+        register(context, DEEPSLATE_PINK_GARNET_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPinkGarnetOres, 12));
+
+        register(context, PALLADIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPalladiumOres, 12));
+        register(context, DEEPSLATE_PALLADIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldPalladiumOres, 12));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -1,4 +1,4 @@
-// 1.21.3	2025-05-01T23:18:04.6637401	BetterMC/Model Definitions
+// 1.21.3	2025-05-01T23:32:59.6550207	BetterMC/Model Definitions
 d89d252b07988eb41a0001fae7d8cb24f8b5cd63 assets\bettermc\models\block\pink_garnet_slab_top.json
 d4f8144cc030d33cd5a2213ce255619048128997 assets\bettermc\models\item\pink_garnet_helmet.json
 e9f70fef93400df1df0d354e372f0c169e941387 assets\bettermc\models\item\pink_garnet_helmet_netherite_trim.json
@@ -132,5 +132,5 @@ edfa64ecb0bdde4314eb66defa98b87d3d5f80f5 assets\bettermc\models\block\pink_garne
 5f0855d5cc895a3a1f99091a051680642f52b980 assets\bettermc\models\item\raw_pink_garnet_block.json
 2b47363f74beac8c9e00ce960d068020fdd65041 assets\bettermc\models\item\pink_garnet_pickaxe.json
 8c69e5fd5ce3957c8839d67407be9f11777206aa assets\bettermc\models\block\raw_palladium_block.json
-2c475314d58388f7a4487922b35b829b577bc159 assets\bettermc\models\item\pink_garnet_chestplate_iron_trim.json
 b77984f2b4c4665e8a6ec4b7731772960605c082 assets\bettermc\models\item\palladium_block.json
+2c475314d58388f7a4487922b35b829b577bc159 assets\bettermc\models\item\pink_garnet_chestplate_iron_trim.json
