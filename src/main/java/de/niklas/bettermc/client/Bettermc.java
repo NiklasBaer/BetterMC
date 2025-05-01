@@ -9,6 +9,8 @@ import de.niklas.bettermc.item.ModItems;
 import de.niklas.bettermc.potion.ModPotion;
 import de.niklas.bettermc.sound.ModSounds;
 import de.niklas.bettermc.util.HammerUsageEvent;
+import de.niklas.bettermc.world.gen.ModOreGeneration;
+import de.niklas.bettermc.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
@@ -39,6 +41,9 @@ public class Bettermc implements ModInitializer {
         ModPotion.registerPotions();
 
         ModEnchantmentEffects.registerModEnchantmentEffects();
+
+        ModWorldGeneration.registerWorldGeneration();
+        ModOreGeneration.registerOreGeneration();
 
         PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
         AttackEntityCallback.EVENT.register((player, world, hand, entity, hitResult) -> {
